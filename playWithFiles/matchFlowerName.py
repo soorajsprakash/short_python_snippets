@@ -1,3 +1,21 @@
+# QUESTION: 
+
+# Create a function that opens the flowers.txt, reads every line in it,
+# and saves it as a dictionary. The main (separate) function should take user input
+# (user's first name and last name) and parse the user input to identify the first
+# letter of the first name. It should then use it to print the flower name with the 
+# same first letter (from dictionary created in the first function).
+
+#             |
+#             |
+#             |
+#             |
+#             |
+#             |
+#             V
+
+# ANSWER
+
 # function that creates a flower dictionary (flowerDict)from filename
 def flower(filename):
     flowerDict={}
@@ -22,3 +40,5 @@ def main():
     print("Unique flower name with the first letter: {}".format(uniqueName))
 
 main()
+
+### added from udacity practise problems
